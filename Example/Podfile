@@ -1,0 +1,6 @@
+use_frameworks!
+target 'fz-iOS-sdk_Tests' do
+  pod 'fz-iOS-sdk', :path => '../'
+  
+  
+end

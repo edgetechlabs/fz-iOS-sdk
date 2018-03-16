@@ -5,9 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/fz-iOS-sdk.svg?style=flat)](http://cocoapods.org/pods/fz-iOS-sdk)
 [![Platform](https://img.shields.io/cocoapods/p/fz-iOS-sdk.svg?style=flat)](http://cocoapods.org/pods/fz-iOS-sdk)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 

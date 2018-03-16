@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1606A2103BB58008D18E5E70E1731B09 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6759E1F3C4D0A21A54E1DF97A8341 /* ReplaceMe.m */; };
+		2721FA06205BA874006BF3E9 /* BlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2721FA04205BA874006BF3E9 /* BlueTooth.m */; };
 		4D0D0D2088A1F333069DB4B5DD3BE344 /* Pods-fz-iOS-sdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19B3A3FDF14C08E198ECEF5DDDF94D2 /* Pods-fz-iOS-sdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60247F35B04A446FF7547C755BD419E3 /* fz-iOS-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDDF120F4C6D2F611EDD7976460A7EA /* fz-iOS-sdk-dummy.m */; };
 		663A232E7CA82DC3CEE01E03494F52C0 /* Pods-fz-iOS-sdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6035CA97BC8101ACFFBA7F9F41CB78 /* Pods-fz-iOS-sdk_Tests-dummy.m */; };
@@ -30,24 +30,25 @@
 		0ADA2162D03D7CB64B7A9A78B53F0A49 /* Pods-fz-iOS-sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fz-iOS-sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C11051D6CDFDFF50FA3386BD3470B53 /* Pods-fz-iOS-sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fz-iOS-sdk_Tests.modulemap"; sourceTree = "<group>"; };
 		0EB93DC2D739D8D32A3269DD1341BA87 /* fz-iOS-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "fz-iOS-sdk.modulemap"; sourceTree = "<group>"; };
-		18B58070E99AF112650B9DEA3A9980A8 /* Pods_fz_iOS_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fz_iOS_sdk_Tests.framework; path = "Pods-fz-iOS-sdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B58070E99AF112650B9DEA3A9980A8 /* Pods_fz_iOS_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fz_iOS_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2721FA04205BA874006BF3E9 /* BlueTooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BlueTooth.m; path = "fz-iOS-sdk/Classes/BlueTooth.m"; sourceTree = "<group>"; };
+		2721FA05205BA874006BF3E9 /* BlueTooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlueTooth.h; path = "fz-iOS-sdk/Classes/BlueTooth.h"; sourceTree = "<group>"; };
 		2BCA4021A5B0331CEC63CA71FC842F42 /* Pods-fz-iOS-sdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fz-iOS-sdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3E9E35C9D29C6D47AFDEBDAC2E1D7375 /* Pods-fz-iOS-sdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fz-iOS-sdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CD1D8B6D7F590D702E06A01BF765C90 /* fz-iOS-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "fz-iOS-sdk.xcconfig"; sourceTree = "<group>"; };
-		55F6759E1F3C4D0A21A54E1DF97A8341 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "fz-iOS-sdk/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A46DF19B3A9BD38C98E02BC255AEF4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6A46DF19B3A9BD38C98E02BC255AEF4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		75597C63D858A312933391AFA7496362 /* fz-iOS-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fz-iOS-sdk-prefix.pch"; sourceTree = "<group>"; };
 		7F6035CA97BC8101ACFFBA7F9F41CB78 /* Pods-fz-iOS-sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fz-iOS-sdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A34CD625DBD9D540065BCA792E2F369 /* Pods-fz-iOS-sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fz-iOS-sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		90EAA84FF3B0BC408ED4B6A9E1122658 /* fz-iOS-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "fz-iOS-sdk.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90EAA84FF3B0BC408ED4B6A9E1122658 /* fz-iOS-sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "fz-iOS-sdk.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADDDF120F4C6D2F611EDD7976460A7EA /* fz-iOS-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fz-iOS-sdk-dummy.m"; sourceTree = "<group>"; };
 		B4D504567360C50617FE76F90CBB40AD /* Pods-fz-iOS-sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fz-iOS-sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C3DB54710D52A8CDFF613E1C9BC93D79 /* fz-iOS-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fz-iOS-sdk-umbrella.h"; sourceTree = "<group>"; };
-		C5DEEA63E996DCB8DA95187F860C347E /* fz_iOS_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fz_iOS_sdk.framework; path = "fz-iOS-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DEEA63E996DCB8DA95187F860C347E /* fz_iOS_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fz_iOS_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C627830E8D61AA1336A2078516E7F8ED /* Pods-fz-iOS-sdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fz-iOS-sdk_Tests-resources.sh"; sourceTree = "<group>"; };
-		C6D8F40F3EA4F3B533995AB825A7A4D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6D8F40F3EA4F3B533995AB825A7A4D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D19B3A3FDF14C08E198ECEF5DDDF94D2 /* Pods-fz-iOS-sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fz-iOS-sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3DAE4B2EF7860804F2F223D83D5FA2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F97FEA1E642F132BDD07A255B73F5C69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,7 +137,8 @@
 		A8C1F32259F9A48E0F2CBF016DE0AE5F /* fz-iOS-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				55F6759E1F3C4D0A21A54E1DF97A8341 /* ReplaceMe.m */,
+				2721FA05205BA874006BF3E9 /* BlueTooth.h */,
+				2721FA04205BA874006BF3E9 /* BlueTooth.m */,
 				041D3A84EE73B93634A85E0D9926170F /* Pod */,
 				591FF24F5CBA63D148B4FC3AEB2463F3 /* Support Files */,
 			);
@@ -276,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60247F35B04A446FF7547C755BD419E3 /* fz-iOS-sdk-dummy.m in Sources */,
-				1606A2103BB58008D18E5E70E1731B09 /* ReplaceMe.m in Sources */,
+				2721FA06205BA874006BF3E9 /* BlueTooth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

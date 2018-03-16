@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0091C84E2E165215E52E1B4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0091C84E2E165215E52E1B4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		21448E5AB99E4EC9349A0EFF /* Pods-fz-iOS-sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fz-iOS-sdk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fz-iOS-sdk_Tests/Pods-fz-iOS-sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4036BB88CB7CD16E70AA8F35 /* fz-iOS-sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "fz-iOS-sdk.podspec"; path = "../fz-iOS-sdk.podspec"; sourceTree = "<group>"; };
+		4036BB88CB7CD16E70AA8F35 /* fz-iOS-sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "fz-iOS-sdk.podspec"; path = "../fz-iOS-sdk.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,7 +29,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		CA356BF6FF044B8254686955 /* Pods-fz-iOS-sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fz-iOS-sdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fz-iOS-sdk_Tests/Pods-fz-iOS-sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E268C275E47E92B13D8CD4C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E268C275E47E92B13D8CD4C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7835F1D97E27700F18724C9 /* Pods_fz_iOS_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fz_iOS_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

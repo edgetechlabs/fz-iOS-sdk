@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/fz-iOS-sdk.svg?style=flat)](http://cocoapods.org/pods/fz-iOS-sdk)
 [![Platform](https://img.shields.io/cocoapods/p/fz-iOS-sdk.svg?style=flat)](http://cocoapods.org/pods/fz-iOS-sdk)
 
-
 ## Requirements
 
 ## Installation
@@ -16,8 +15,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'fz-iOS-sdk'
 ```
+Add "libfz-iOS-sdk.a" file in "Linked Frameworks and Libraries".
+
 For Swift users:
-Set "Defines Module" to "YES" in "Build Settings" tab after the pod install.
+     - Set "Defines Module" to "YES" in "Build Settings" tab after the pod install.
 
 ## Usage
 

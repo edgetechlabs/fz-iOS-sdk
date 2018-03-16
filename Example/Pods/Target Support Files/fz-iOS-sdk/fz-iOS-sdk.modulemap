@@ -1,0 +1,6 @@
+framework module fz_iOS_sdk {
+  umbrella header "fz-iOS-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

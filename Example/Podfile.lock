@@ -1,0 +1,16 @@
+PODS:
+  - fz-iOS-sdk (0.1.0)
+
+DEPENDENCIES:
+  - fz-iOS-sdk (from `../`)
+
+EXTERNAL SOURCES:
+  fz-iOS-sdk:
+    :path: ../
+
+SPEC CHECKSUMS:
+  fz-iOS-sdk: b790e16281dfdebd3ca7e2be08638ab3a9a41eca
+
+PODFILE CHECKSUM: 1ebb3ea29711f1eac5c42720b2ff7da939ea0f11
+
+COCOAPODS: 1.4.0
